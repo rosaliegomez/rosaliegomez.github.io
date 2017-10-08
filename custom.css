@@ -1,0 +1,209 @@
+body {
+    font-family: "Abel", sans-serif;
+    background-color: #F0F0F0;
+    text-transform: uppercase;
+}
+.navbar-default {
+    border: none;
+    background-color: papayawhip;
+}
+nav {
+    background-color: papayawhip;
+    margin-top: 4em;
+
+}
+.logo-container {
+    display: inline-block;
+    text-transform: none;
+}
+.codeup-logo {
+    max-width: 105px;
+    max-height: 105px;
+    float: left;
+}
+.logo-text {
+    float:left;
+    font-size: 3em;
+}
+nav ul {
+    list-style-type: none;
+    float: right;
+    padding: 0;
+}
+nav ul>li {
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    background-color: #F0F0F0;
+}
+
+
+
+
+.featured-project .featured-img {
+    border: .25em solid #E6E6E6;
+    border-radius: 5px;
+}
+
+.featured-project {
+    margin-top: 4em;
+}
+.featured-project:first-child {
+    margin-top: 2.5em;
+}
+
+.header-alt small {
+    color: #000000;
+}
+
+.circle, .icon {
+    border-radius: 50%;
+}
+
+.circle {
+    border: .25em solid #ffffff;
+    color: #ffffff;
+    height: 105px;
+    width: 105px;
+    margin-top: 1em;
+}
+
+.circle h3 {
+    margin-top: 1.5em;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    line-height: 18px;
+
+}
+
+.circle-red, .icon-red {
+    background-color: #e6563b;
+}
+
+.circle-yellow, .icon-yellow {
+    background-color: #e79e1a;
+}
+
+.circle-green, .icon-green {
+    background-color: #7cb06c;
+}
+
+.circle-blue, .icon-blue {
+    background-color: #00aba9;
+}
+
+.fp-title-wrapper {
+    width:100%;
+    overflow: auto;
+}
+.fp-title, .icons {
+    display: inline-block;
+    width: 50%;
+}
+.fp-title {
+    float: left;
+}
+.icons {
+    float: right;
+    overflow: auto;
+    padding-right: 3px;
+}
+.last-section>p {
+    margin-bottom: 3.5em;
+}
+
+.last-tweet-row {
+    padding: 2em 1em 0 1em;
+}
+
+.last-tweet-row>p:nth-child(2) {
+    text-transform: none;
+}
+
+.article {
+    margin-bottom: 1.5em;
+}
+
+.article .headline-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:992px){
+    #sw-heading{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .headline-text {
+        padding-top: 1em;
+        padding-bottom: 1.25em;
+    }
+    nav>* {
+        width: 99%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo-container {
+        width: 100%;
+    }
+    .logo-container .codeup-logo {
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    .logo-container .logo-text {
+        float: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    nav {
+        text-align: center;
+    }
+
+    .logo-container {
+        display: inline-block;
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .logo-container .codeup-logo, .logo-container .logo-text, .nav-links {
+        float: none;
+    }
+
+    .nav-links {
+        position: relative;
+    }
+
+    .nav-links li:first-child, .nav-links li:nth-child(2) {
+        position: relative;
+        bottom: 9em;
+        right: 5em;
+    }
+
+    .nav-links li:nth-child(3), .nav-links li:last-child {
+        position: relative;
+        bottom: 9em;
+        left: 5em;
+    }
+
+}

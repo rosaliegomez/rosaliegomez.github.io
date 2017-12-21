@@ -1,48 +1,91 @@
-.navbar-fixed-left {
-    width: 280px;
+.navbar{
+    width: 100%;
     position: fixed;
-    float: left;
     border-radius: 0px;
-    height: 100%;
+    height: 70px;
     margin-top: 0;
     text-align: center;
-    background-color: #1F201C;
+    background-color: #FECF51;
     border: 5px;
     z-index: 5;
-    padding-top: 40px;
+    padding-top: 0;
 }
 
-.navbar-fixed-left .navbar-nav > li {
-    /*float: none;  !* Cancel default li float: left *!*/
-    width: 100%;
-    border-top: 1px solid gray;
+#name-info{
+    float:left;
+    padding-left: 10px;
+}
+#name{
+    color: #454243;
+    font-size: 30px;
+    /*float:left;*/
     display: inline-block;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-
-
-
+    padding-left: 7px;
+    margin-bottom: 0;
+    margin-top: 7px;
+    /*font-family: 'Rozha One', serif;*/
+    font-family: 'Titillium Web', sans-serif;
 }
-ul.nav.navbar-nav{
-    padding-top: 30px;
-    /*display: inline-block;*/
-    /*width:80%;*/
-
-}
-
-.navbar-fixed-left h3 {
-    color: #EFBA2E;
-    font-family: 'Rozha One', serif;
-    font-size: 35px;
-
-}
-p{
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    width: 75%;
-    font-family: 'Raleway', sans-serif;
-    color: #D5C078;
+#software-developer{
+    font-size: 20px;
+    /*float:left;*/
     display: inline-block;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+}
+.yellow{
+    color:#6B6B6B;
+}
+#contact-info{
+    color:#FFE39E;
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 2px solid #6B6B6B;
+    border-radius: 20px;
+    padding: 4px;
+}
+body{
+    background-color: #FFFFFF;
+}
+.homepage{
+    padding-top:160px;
+    float: left;
+}
+#hey{
+    color:#FECF51;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 55px;
+}
+#bio{
+    font-family: 'Lato', sans-serif;
+    font-size: 39px;
+}
+
+.skill-section{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 52px;
+    width: 120px;
+    font-family: 'Lato', sans-serif;
+}
+.skills{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+.skills li{
+    list-style-type: none;
+    padding-left: 1px;
+}
+.skills ul{
+    padding-left:1px;
+    margin-left: 5px;
+}
+#info{
+    font-family: 'Lato', sans-serif;
+    color: #00aba9;
+    padding-top:50px;
 }
 div.navbar .navbar-inverse .navbar-fixed-left {
 

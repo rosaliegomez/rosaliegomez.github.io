@@ -1,3 +1,42 @@
+@keyframes element {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+div.element {
+    animation-duration: 2s;
+    animation-name: element;
+}
+
+@keyframes bio-1 {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.bio-1{
+    animation-name: bio-1;
+    animation-duration: 0.75s;
+    animation-timing-function: ease;
+    animation-delay: initial;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: both;
+    animation-play-state: initial;
+}
 .navbar{
     width: 100%;
     position: fixed;
@@ -51,6 +90,14 @@ body{
 .homepage{
     padding-top:160px;
     float: left;
+    padding-bottom: 300px;
+
+}
+.gray {
+    padding-top: 100px;
+    background-color: #647C8A;
+    height: 700px;
+    color: #fff;
 }
 #hey{
     color:#FECF51;
@@ -133,6 +180,7 @@ div.navbar .navbar-inverse .navbar-fixed-left {
 }
 #home {
     padding-top: 20px;
+    background-color: #647C8A;
 }
 
 #profile-pic {

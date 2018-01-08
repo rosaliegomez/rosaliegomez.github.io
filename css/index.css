@@ -88,7 +88,7 @@ body{
     background-color: #FFFFFF;
 }
 .homepage{
-    padding-top:160px;
+    padding-top:110px;
     float: left;
     padding-bottom: 300px;
 
@@ -99,14 +99,14 @@ body{
 .lang{
     display: inline-block;
     /*flex-direction: column;*/
-    padding-right: 50px;
+    padding-right: 95px;
     padding-top: 30px;
     align-items: center;
 }
 .tools{
     display: inline-block;
     /*flex-direction: column;*/
-    padding-right: 40px;
+    padding-right: 0px;
     padding-top: 30px;
     align-items: center;
 
@@ -114,7 +114,7 @@ body{
 .lib{
     display: inline-block;
     /*flex-direction: column;*/
-    padding-right: 50px;
+    padding-right: 95px;
     padding-top: 30px;
     align-items: center;
 
@@ -155,11 +155,12 @@ body{
     padding-left:1px;
     margin-left: 5px;
 }
-#info{
+.info{
     font-family: 'Lato', sans-serif;
     color: #00aba9;
-    padding-top:50px;
+    padding-top:10px;
     text-align: center;
+    font-size: 50px;
 }
 .skill-section{
     font-size: 30px;

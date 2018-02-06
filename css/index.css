@@ -39,19 +39,26 @@ div.element {
 }
 .navbar{
     width: 100%;
-    position: fixed;
+    position: relative;
     border-radius: 0px;
-    height: 70px;
+    height: 40px;
     margin-top: 0;
     text-align: center;
-    background-color: #FECF51;
+    /*background-color: #FECF51;*/
     border: 5px;
     z-index: 5;
     padding-top: 0;
 }
+.yellow{
+    background-color: #FECF51;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    height: 390px;
+}
 
 #name-info{
-    float:left;
+    /*float:left;*/
     padding-left: 10px;
 }
 #name{
@@ -72,7 +79,7 @@ div.element {
     color:#fff;
     font-family: 'Raleway', sans-serif;
 }
-.yellow{
+.contact{
     color:#6B6B6B;
 }
 #contact-info{
@@ -124,6 +131,7 @@ body{
     background-color: #647C8A;
     height: 700px;
     color: #fff;
+    margin-top: 50px;
 }
 #hey{
     color:#FECF51;
@@ -225,4 +233,20 @@ div.navbar .navbar-inverse .navbar-fixed-left {
 }
 a{
     width: 100%;
+}
+#nav-pic{
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-right: 60px;
+    margin-top:25px;
+}
+.nav-list{
+    list-style-type: none;
+    display: inline-block;
+    padding:0;
+    margin:0;
+}
+li{
+    display: inline;
 }

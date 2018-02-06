@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="img/cassette.ico" type='image/x-icon'>
 
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Elsie:900|Raleway|Rozha+One|Titillium+Web:900|Lato');
+        @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Elsie:900|Raleway|Prata|Rozha+One|Titillium+Web:900|Lato');
     </style>
 
     <title>Rosalie Gomez</title>
@@ -20,45 +20,50 @@
 <nav>
 <div class="navbar">
     <ul class="nav-list">
-        <li>About</li>
-        <li>Projects</li>
-        <li id="name-info">Rosalie Gomez Software Developer</li>
-        <li>Resume</li>
-        <li>Contact</li>
+        <li class="list-nav">About</li>
+        <li class="list-nav">Projects</li>
+        <li class="list-nav"><img src="img/nameicon.png" width="200px" height="200px"></li>
+        <li class="list-nav">Resume</li>
+        <li class="list-nav">Contact</li>
     </ul>
 
 </div>
 </nav>
 <div class="yellow">
         <div>
-
+            <div class="element">
+                <h2 id="hey" class="element">Hey there!</h2>
+            </div>
+            <div class="bio-1">
+                I'm Rosalie Gomez, a software developer based in San Antonio, focused on creating intuitive user interfaces within full-stack applications.
+            </div>
         </div>
         <img src="img/background1.jpg" width="500px" height="300px" id="nav-pic" class="img-responsive"/>
 
 </div>
 <!--end navigation-->
 <!-- 1st section-->
-<div class="gray">
-    <div class="col-md-6 col-md-offset-2">
-        <div class="homepage">
-            <div class="element">
-            <h2 id="hey" class="element">Hey there!</h2>
-            </div>
-            <div>
-            <h5 id="bio" class="bio-1">I'm Rosalie Gomez, a software developer based in San Antonio, focused on creating intuitive user interfaces within full-stack applications.</h5>
-            </div>
-        </div>
-    </div>
-</div>
+<!--<div class="gray">-->
+    <!--<div class="col-md-6 col-md-offset-2">-->
+        <!--<div class="homepage">-->
+            <!--<div class="element">-->
+            <!--<h2 id="hey" class="element">Hey there!</h2>-->
+            <!--</div>-->
+            <!--<div>-->
+            <!--<h5 id="bio" class="bio-1">I'm Rosalie Gomez, a software developer based in San Antonio, focused on creating intuitive user interfaces within full-stack applications.</h5>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 
     <!-- 2nd section-->
     <div class="container" >
         <div class="skills row">
-            <h2 class="info">SKILLS</h2>
+            <h2 class="info">Skills</h2>
             <div class="lang col-sm">
-            <img src="img/browser.png" width="90px" height="110px">
+            <img src="img/browser.png" width="90px" height="110px" class="gray-pic">
             <br/>
-            <div class="skill-section">LANGUAGES
+            <div class="skill-section">Languages
             <ul class="list">
                 <li>Java</li>
                 <li>SQL</li>
@@ -68,9 +73,9 @@
             </ul> </div>
             </div>
             <div class="lib col-sm">
-            <img src="img/browser1.png" width="90px" height="110px">
+            <img src="img/browser1.png" width="90px" height="110px" class="gray-pic">
             <br/>
-            <div class="skill-section">LIBRARIES & FRAMEWORK
+            <div class="skill-section">Libraries & Frameworks
                 <ul class="list">
                     <li>jQuery</li>
                     <li>Bootstrap</li>
@@ -79,9 +84,9 @@
             </div>
             <div class="tools col-sm">
 
-            <img src="img/browser2.png" width="90px" height="110px">
+            <img src="img/browser2.png" width="90px" height="110px" class="gray-pic">
             <br/>
-            <div class="skill-section">TOOLS
+            <div class="skill-section">Tools
                 <ul class="list">
                     <li>Git & Github</li>
                     <li>Chrome DevTools</li>
@@ -97,10 +102,28 @@
     <!--3rd section-->
     <div class="col-md-8 col-md-offset-2" id="projects">
 
-            <h2 class="info">Featured Projects</h2>
-        <img src="img/thrifty.png" alt="thrifty"height="200px" width="300px">
-    <br/>
-        <a href="http://thrifty.stream" target="_blank">Thrifty</a>
+        <h2 class="info">Featured Projects</h2>
+
+    <div class="container">
+        <div class="content">
+            <div class="content-overlay"></div>
+        <img src="img/thrifty.png" alt="thrifty"height="250px" width="400px" class="content-image"/>
+        <div class="content-details">
+        <p>Thrifty</p>
+            <p>Full-stack web application </p>
+            <p>Java | MySql | Javascript | CSS | HTML</p>
+        <a href="http://thrifty.stream" target="_blank" class="project-links">View Website</a>
+            <a href="https://github.com/Capstone-AAR/capstone" target="_blank" class="project-links">View on Github</a>
+
+        </div>
+
+
+
+    <!--<img src="img/blog.png" alt="blog" height="200px" width="300px" class="hover"/>-->
+        <!--<a href="http://blog.rosaliegomez.com/login" target="_blank">Spring Blog</a>-->
+        <!--<br/>-->
+        </div>
+    </div>
     </div>
     <!--4th section-->
     <div class="container" id="work">

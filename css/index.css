@@ -1,3 +1,7 @@
+@-ms-viewport{
+    width: device-width;
+}
+
 @keyframes element {
     0% {
         transform: scale(0.5);
@@ -218,8 +222,6 @@ div.navbar .navbar-inverse .navbar-fixed-left {
 /*}*/
 
 
-/*!*When the window is maximized.*!////////////////////////////////////////////////////////////////////////////////*/
-@media screen and (min-width: 300px) and (max-width: 1300px){
 .wrapper {
 
     width: 760px;
@@ -564,6 +566,8 @@ a{
     color: #fff;
     padding: 6px;
 }
+/*!*When the window is maximized.*!////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 1150px) and (max-width: 1300px){
 }
 /*Next Media Breakpoint/////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 920px) and (max-width: 1150px){
@@ -607,7 +611,7 @@ a{
     }
 }
 /*Next Media Breakpoint/////////////////////////////////////////////////////////////////////////*/
-@media screen and (min-width: 321px) and (max-width: 700px){
+@media only screen and (min-width: 300px) and (max-width: 700px){
     .bio-1{
         display: inline-block;
         width: 700px;

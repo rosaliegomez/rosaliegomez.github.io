@@ -122,6 +122,7 @@ body{
     padding-right: 95px;
     padding-top: 30px;
     align-items: center;
+    width:auto;
 }
 .tools{
     display: inline-block;
@@ -129,6 +130,7 @@ body{
     padding-right: 0px;
     padding-top: 30px;
     align-items: center;
+    width:auto;
 
 }
 .lib{
@@ -137,6 +139,7 @@ body{
     padding-right: 95px;
     padding-top: 30px;
     align-items: center;
+    width:auto;
 
 }
 .gray {
@@ -660,7 +663,9 @@ a{
         font-family: 'Prata', Serif;
 
     }
-
+    .hidden-list{
+        padding-left: 0;
+    }
     li .list-nav{
         margin-right:0;
     }
@@ -669,6 +674,27 @@ a{
         display: flex;
         justify-content: center;
         height: 260px;
+    }
+    .bio-1{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .lang{
+        padding-right: 0;
+        padding-left:0;
+        width: 100%;
+    }
+    .lib{
+        padding-right: 0;
+        padding-left:0;
+        width:100%;
+    }
+    .tools{
+        padding-left: 0;
+        width:100%;
+    }
+    #hey{
+        margin-left: 40px;
     }
 }
 @media only screen

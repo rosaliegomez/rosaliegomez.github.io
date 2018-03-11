@@ -464,11 +464,16 @@ a{
     display: inline-block;
     padding:0;
     margin:0;
+
 }
 .list-nav{
     display: inline;
     padding-left:40px;
     font-size: 20px;
+    color: black;
+}
+a:link{
+    text-decoration: none;
 }
 .gray-pic{
     -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */

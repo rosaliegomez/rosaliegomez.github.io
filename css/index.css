@@ -464,6 +464,7 @@ a{
     display: inline-block;
     padding:0;
     margin:0;
+    font-family: 'Prata', serif;
 
 }
 .list-nav{
@@ -578,7 +579,7 @@ p{
 
 
 }
-.project{
+.project-box{
     margin-bottom: 50px;
 }
 .project-links{
@@ -610,6 +611,14 @@ p{
     padding-left:40px;
     font-size: 20px;
 
+}
+.about-yellow{
+    width:100%;
+    background-color: #FECF51;
+}
+#van-pic{
+    margin-left: 146px;
+    margin-top: 30px;
 }
 
 /*!*When the window is maximized.*!////////////////////////////////////////////////////////////////////////////////*/
@@ -747,6 +756,7 @@ p{
         list-style-type: none;
         font-size: 18px;
         font-family: 'Prata', Serif;
+        color:black;
 
     }
     .hidden-list{

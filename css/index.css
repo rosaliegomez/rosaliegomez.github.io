@@ -96,7 +96,7 @@ div.element {
     color:#6B6B6B;
 }
 #contact-info{
-    color:#FFE39E;
+    color:#FECF51;
     float:right;
     margin-right: 20px;
     margin-top: 20px;
@@ -187,7 +187,7 @@ body{
     padding-top:10px;
     text-align: center;
     font-size: 50px;
-    border-bottom: solid #FFE39E 3px;
+    border-bottom: solid #FECF51 10px;
 }
 .skill-section{
     font-size: 30px;
@@ -329,7 +329,7 @@ div.element {
     color:#6B6B6B;
 }
 #contact-info{
-    color:#FFE39E;
+    color:#FECF51;
     float:right;
     margin-right: 20px;
     margin-top: 20px;
@@ -417,7 +417,7 @@ body{
     padding-top:10px;
     text-align: center;
     font-size: 50px;
-    border-bottom: solid #FFE39E 3px;
+    border-bottom: solid #FECF51 10px;
 }
 .skill-section{
     font-size: 30px;
@@ -577,8 +577,8 @@ p{
     margin-bottom: 50px;
 }
 .project-links{
-    border: solid #FFE39E  2px;
-    color: #FFE39E ;
+    border: solid #FECF51  2px;
+    color: #FECF51 ;
     padding: 6px;
 }
 .content-details a.project-links:hover{
@@ -589,14 +589,24 @@ p{
     position: relative;
     border-radius: 0px;
     height: 161px;
-    margin-top: 0;
+
     text-align: center;
     /*background-color: #FECF51;*/
     border: 5px;
     z-index: 5;
-    padding-top: 0;
-    background-color: black;
+    padding-top: 30px;
+    background-color: #FECF51;
+    margin-top: -10px;
+    clear: both;
+
 }
+.footer-nav{
+    display: inline;
+    padding-left:40px;
+    font-size: 20px;
+
+}
+
 /*!*When the window is maximized.*!////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 1150px) and (max-width: 1300px){
 }
@@ -773,6 +783,21 @@ p{
         padding: 6px;
         display: block;
         margin-bottom: 5px;
+    }
+    .footer-pics{
+        width: 40px;
+        height: 40px;
+    }
+    .footer{
+        text-align: center;
+        /*background-color: #FECF51;*/
+        border: 5px;
+        z-index: 5;
+        padding-top: 15px;
+        background-color: #FECF51;
+        margin-top: -10px;
+        clear: both;
+
     }
 }
 @media only screen

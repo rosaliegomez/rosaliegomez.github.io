@@ -620,7 +620,30 @@ p{
     margin-left: 146px;
     margin-top: 30px;
 }
+.yellow-1{
+    background-color: #FECF51;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    height: 485px;
+    padding-top:10px;
+}
+.bio-2{
+    display: inline-block;
+    position: relative;
 
+    margin-top: 55px;
+
+
+
+    width: 450px;
+
+    float: left;
+    font-size: 18px;
+    font-family: 'Prata', serif;
+    margin-left: 100px;
+
+}
 /*!*When the window is maximized.*!////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 1150px) and (max-width: 1300px){
 }
@@ -652,6 +675,9 @@ p{
     .lib{
         padding-right: 50px;
     }
+    .yellow-1{
+        height: 600px;
+    }
 }
 /*Next Media Breakpoint/////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 776px) and (max-width: 920px){
@@ -678,6 +704,9 @@ p{
     }
     .lib{
         padding-right: 40px;
+    }
+    .yellow-1{
+        height: 740px;
     }
 
 }
@@ -706,6 +735,9 @@ p{
     .lib{
         padding-right: 40px;
     }
+    .yellow-1{
+        height: 730px;
+    }
 
 }
 /*Next Media Breakpoint/////////////////////////////////////////////////////////////////////////*/
@@ -721,6 +753,10 @@ p{
         margin-left: 55px;
         margin-top: 15px;
     }
+    .bio-2{
+        width:285px;
+        margin-left:20px;
+    }
     #nav-pic{
         width: 400px;
         height:250px;
@@ -735,6 +771,9 @@ p{
     }
     .yellow{
         height: 585px;
+    }
+    .yellow-1{
+        height: 875px;
     }
     .list-nav{
         padding-left:10px;
@@ -813,6 +852,9 @@ p{
         margin-top: -10px;
         clear: both;
 
+    }
+    #van-pic{
+        margin-left:90px;
     }
 }
 @media only screen

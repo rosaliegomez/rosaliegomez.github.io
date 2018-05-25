@@ -191,7 +191,7 @@ body{
 }
 .skill-section{
     font-size: 30px;
-    color: #454243;
+    color: #000000;
 }
 .list{
     font-size: 20px;
@@ -473,6 +473,9 @@ a{
     font-size: 20px;
     color: black;
 }
+#project-list{
+    padding-left:0;
+}
 a:link{
     text-decoration: none;
 }
@@ -540,7 +543,18 @@ a:link{
     -webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
+    transform: scale(1.5);
+
 }
+.rollover:not(.no-hover):hover .box-photo img {
+    opacity: 0.5;
+}
+
+.content:hover:not(.no-scale) .content-image img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 p{
     font-family: 'Raleway', sans-serif;
 }
@@ -550,6 +564,7 @@ p{
 }
 .content:hover .content-overlay {
     opacity: 1;
+
 }
 
 .content-details{
@@ -567,16 +582,24 @@ p{
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+
 }
 
 .content:hover .content-details{
     opacity: 1;
+    transition: all 0.3s ease-in-out;
+
 }
 .content-details {
     color:#fff;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
 
+
+}
+.content-image:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 .project-box{
@@ -587,6 +610,10 @@ p{
     color: #FECF51 ;
     padding: 6px;
 }
+.project-info{
+    padding-left:200px;
+    padding-right:200px;
+}
 .content-details a.project-links:hover{
     color: #FFF;
 }
@@ -594,7 +621,7 @@ p{
     width: 100%;
     position: relative;
     border-radius: 0px;
-    height: 161px;
+    height: 400px;
 
     text-align: center;
     /*background-color: #FECF51;*/
@@ -611,6 +638,9 @@ p{
     padding-left:40px;
     font-size: 20px;
 
+}
+#mail-pic{
+    padding-left:0;
 }
 .about-yellow{
     width:100%;
@@ -644,6 +674,12 @@ p{
     margin-left: 100px;
 
 }
+#map-canvas{
+    height: 200px;
+    width: 100px;
+    margin-top: 15px;
+}
+
 /*!*When the window is maximized.*!////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 1150px) and (max-width: 1300px){
 }
@@ -678,6 +714,10 @@ p{
     .yellow-1{
         height: 600px;
     }
+    .project-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 /*Next Media Breakpoint/////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 776px) and (max-width: 920px){
@@ -708,6 +748,10 @@ p{
     .yellow-1{
         height: 740px;
     }
+    .project-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
 }
 @media screen and (min-width: 701px) and (max-width: 775px){
@@ -737,6 +781,10 @@ p{
     }
     .yellow-1{
         height: 730px;
+    }
+    .project-info {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 }
@@ -855,6 +903,10 @@ p{
     }
     #van-pic{
         margin-left:90px;
+    }
+    .project-info {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media only screen
